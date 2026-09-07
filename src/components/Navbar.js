@@ -10,7 +10,6 @@ const links = [
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -29,8 +28,7 @@ export default function Navbar() {
       transition: 'all 0.3s',
     }}>
       <span style={{ fontWeight: 700, fontSize: '1.1rem', letterSpacing: '0.05em' }}>
-        <span style={{ color: 'var(--blue)' }}>D</span>iallo
-        <span style={{ color: 'var(--purple)' }}>.</span>
+        <span style={{ color: 'var(--blue)' }}>Ibrahima</span> Diallo
       </span>
 
       {/* Desktop links */}
