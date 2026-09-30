@@ -101,26 +101,9 @@ function Home() {
             </ul>
           </div>
 
-          <div className="hero-card">
-            <div className="mini-panel">
-              <span className="dot blue" />
-              KPI de performance
-            </div>
-            <div className="chart-bars" aria-label="Graphique synthétique">
-              <span style={{ height: '35%' }} />
-              <span style={{ height: '55%' }} />
-              <span style={{ height: '68%' }} />
-              <span style={{ height: '82%' }} />
-              <span style={{ height: '100%' }} />
-            </div>
-            <div className="card-footer">
-              <div>
-                <small>Performance globale</small>
-                <strong>89%</strong>
-              </div>
-              <span className="tag">+12% MoM</span>
-            </div>
-          </div>
+          <figure className="hero-portrait">
+            <img src="/maphoto_sans_lunette.jpeg" alt="Portrait d’Ibrahima Diallo" />
+          </figure>
         </section>
 
         <section id="apropos" className="section about-grid">
