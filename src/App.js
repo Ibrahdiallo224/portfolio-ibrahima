@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import ProjectSNCF from './pages/ProjectSNCF';
 import ProjectCNN from './pages/ProjectCNN';
 import ProjectGraphes from './pages/ProjectGraphes';
+import ProjectMines from './pages/ProjectMines';
 import './index.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/projet/sncf" element={<ProjectSNCF />} />
         <Route path="/projet/cnn" element={<ProjectCNN />} />
         <Route path="/projet/graphes" element={<ProjectGraphes />} />
+        <Route path="/projet/mines" element={<ProjectMines />} />
       </Routes>
     </Router>
   );
