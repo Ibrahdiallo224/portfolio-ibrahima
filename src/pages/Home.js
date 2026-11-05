@@ -27,7 +27,7 @@ const experiences = [
     title: 'Stage Développeur – Gouvernance technique & flux de données',
     company: 'e.SNCF Solutions (filiale SNCF) – Lyon',
     description:
-      'Intégré à l’équipe de gouvernance technique, j’ai travaillé sur plusieurs applications de la plateforme SNCF, notamment CIGAL, en pilotant les flux de données, la qualité des livraisons et la coordination technique avec les équipes de développement. J’ai aussi participé à la sécurisation de l’application SIRH sur OpenAM/SSO, OAuth2, MFA OTP, JWT, scripts SQL et administration des serveurs Linux/Apache Tomcat.',
+      'Intégré à l’équipe de gouvernance technique, j’ai travaillé sur plusieurs applications SIRH de la SNCF, notamment CIGAL, en pilotant les flux de données, la qualité des livraisons et la coordination technique avec les équipes de développement. J’ai aussi participé à la sécurisation des applications SIRH sur OpenAM/SSO, OAuth2, MFA OTP, JWT, scripts SQL et administration des serveurs Linux/Apache Tomcat.',
   },
   {
     period: 'Sept. 2023 – aujourd’hui',
