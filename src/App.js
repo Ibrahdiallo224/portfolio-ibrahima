@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import ProjectSNCF from './pages/ProjectSNCF';
 import ProjectCNN from './pages/ProjectCNN';
@@ -6,9 +7,19 @@ import ProjectGraphes from './pages/ProjectGraphes';
 import ProjectMines from './pages/ProjectMines';
 import './index.css';
 
+// Quand on change de page, on remonte en haut (sinon on arrive au milieu de la nouvelle page)
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projet/sncf" element={<ProjectSNCF />} />

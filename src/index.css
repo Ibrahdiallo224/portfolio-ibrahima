@@ -413,7 +413,18 @@ select {
   border-radius: 999px;
 }
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 @media (max-width: 840px) {
+  /* sur téléphone, les 5 liens du menu ne tiennent pas : on garde le nom et « Me contacter » */
+  .nav-links {
+    display: none !important;
+  }
+
   .hero,
   .about-grid,
   .timeline-item {
