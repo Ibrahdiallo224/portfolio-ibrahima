@@ -8,6 +8,8 @@ const skills = [
   'Spring Boot',
   'Python',
   'SQL',
+  'Merise (MCD / MLD)',
+  'Microsoft Access',
   'pandas',
   'scikit-learn',
   'DuckDB',
@@ -58,6 +60,14 @@ const projects = [
     accent: 'blue',
   },
   {
+    title: 'Gestion d’une auto-école en ligne',
+    category: 'Base de données · équipe de 4',
+    description:
+      'Base de données Microsoft Access pour suivre les élèves, les moniteurs, les formations, les paiements et les examens. J’ai réalisé la modélisation Merise (MCD, MLD), l’architecture des 24 tables et une partie des requêtes.',
+    path: '/projet/autoecole',
+    accent: 'teal',
+  },
+  {
     title: 'Détection de pathologies pulmonaires',
     category: 'IA médicale',
     description:
@@ -106,7 +116,7 @@ function Home() {
                 <span>de stage chez e.SNCF Solutions</span>
               </li>
               <li>
-                <strong>4</strong>
+                <strong>5</strong>
                 <span>projets détaillés</span>
               </li>
               <li>

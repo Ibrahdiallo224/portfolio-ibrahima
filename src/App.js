@@ -6,6 +6,7 @@ import ProjectCNN from './pages/ProjectCNN';
 import ProjectGraphes from './pages/ProjectGraphes';
 import ProjectMines from './pages/ProjectMines';
 import ProjectQualite from './pages/ProjectQualite';
+import ProjectAutoEcole from './pages/ProjectAutoEcole';
 import './index.css';
 
 // Quand on change de page, on remonte en haut (sinon on arrive au milieu de la nouvelle page)
@@ -28,6 +29,7 @@ function App() {
         <Route path="/projet/graphes" element={<ProjectGraphes />} />
         <Route path="/projet/mines" element={<ProjectMines />} />
         <Route path="/projet/qualite" element={<ProjectQualite />} />
+        <Route path="/projet/autoecole" element={<ProjectAutoEcole />} />
       </Routes>
     </Router>
   );
