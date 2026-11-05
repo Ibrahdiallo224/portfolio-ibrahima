@@ -11,6 +11,7 @@ Mon site portfolio : qui je suis, mon parcours et mes projets en détail.
 | Accueil | Présentation, compétences, parcours, projets, contact |
 | [Guinée Mines Data](https://github.com/Ibrahdiallo224/guinee-mines-data) | Analyse du secteur minier guinéen : SQL, machine learning, IA qui lit les rapports ITIE |
 | Expérience SNCF (CIGAL / SIRH) | Stage chez e.SNCF Solutions : flux de données, sécurité des accès (OpenAM, OAuth2, JWT, MFA) |
+| Application de questionnaires en C++ | Projet de qualité de programmation en équipe : POO, tests unitaires (doctest), Git |
 | Détection de pathologies pulmonaires | Deep learning sur radiographies (TensorFlow, CNN, ResNet-50) |
 | Réseau aéroportuaire | Théorie des graphes en Java (Dijkstra, Kruskal, BFS, DFS) |
 

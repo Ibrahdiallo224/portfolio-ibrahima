@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 const skills = [
   'Java',
   'Java EE',
+  'C++',
   'Spring Boot',
   'Python',
   'SQL',
@@ -47,6 +48,14 @@ const projects = [
       'Analyse complète du secteur minier guinéen (bauxite, or, fer) de 2000 à 2025 : SQL, prévisions par machine learning, scénarios Simandou, et mon propre modèle d’IA qui lit les rapports officiels ITIE.',
     path: '/projet/mines',
     accent: 'orange',
+  },
+  {
+    title: 'Application de questionnaires en C++',
+    category: 'Qualité logicielle · équipe de 4',
+    description:
+      'Application d’apprentissage et d’évaluation par questionnaires JSON. Programmation orientée objet, tests unitaires (doctest) et travail en équipe avec Git. J’ai réalisé les classes Question et Questionnaire, leurs tests, l’évaluation test et le menu.',
+    path: '/projet/qualite',
+    accent: 'blue',
   },
   {
     title: 'Détection de pathologies pulmonaires',
@@ -97,7 +106,7 @@ function Home() {
                 <span>de stage chez e.SNCF Solutions</span>
               </li>
               <li>
-                <strong>3</strong>
+                <strong>4</strong>
                 <span>projets détaillés</span>
               </li>
               <li>
