@@ -26,7 +26,7 @@ const experiences = [
       'Intégré à l’équipe de gouvernance technique, j’ai travaillé sur plusieurs applications de la plateforme SNCF, notamment CIGAL, en pilotant les flux de données, la qualité des livraisons et la coordination technique avec les équipes de développement. J’ai aussi participé à la sécurisation de l’application SIRH sur OpenAM/SSO, OAuth2, MFA OTP, JWT, scripts SQL et administration des serveurs Linux/Apache Tomcat.',
   },
   {
-    period: 'Sept. 2023 – Juin 2025',
+    period: 'Sept. 2023 – aujourd’hui',
     title: 'Étudiant en Licence 3 MIAGE',
     company: 'Université de Haute-Alsace – Mulhouse',
     description:
@@ -35,6 +35,14 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    title: 'Guinée Mines Data',
+    category: 'Data & IA',
+    description:
+      'Analyse complète du secteur minier guinéen (bauxite, or, fer) de 2000 à 2025 : SQL, prévisions par machine learning, scénarios Simandou, et mon propre modèle d’IA qui lit les rapports officiels ITIE.',
+    path: '/projet/mines',
+    accent: 'orange',
+  },
   {
     title: 'CIGAL / SIRH SNCF',
     category: 'Applications SNCF & sécurité',
@@ -71,11 +79,12 @@ function Home() {
           <div className="hero-copy">
             <p className="eyebrow">Ibrahima Diallo</p>
             <h1>
-              Recherche d’alternance en <span>développement logiciel</span> / sécurité informatique.
+              Recherche d’un stage (mai – août 2027) puis d’une alternance en <span>développement, data / IA</span> ou gestion de projet SI.
             </h1>
             <p className="lead">
-              Étudiant en Licence 3 MIAGE, je développe des applications Java, Java EE et des
-              solutions sécurisées autour des systèmes d’information, des flux de donnée.
+              Étudiant en Licence 3 MIAGE, je développe des applications Java et Python, je travaille
+              la data et l’IA, et je conçois des solutions sécurisées autour des systèmes
+              d’information et des flux de données.
             </p>
             <div className="hero-actions">
               <a href="#projets" className="primary-button">
@@ -112,8 +121,8 @@ function Home() {
             <h2>Je conçois des solutions logicielles fiables, sécurisées et utiles.</h2>
           </div>
           <p>
-            Étudiant en MIAGE, je m’intéresse particulièrement au développement logiciel,à la DATA
-            et la sécurité informatique et aux systèmes d’information. J’aime concevoir des
+            Étudiant en MIAGE, je m’intéresse particulièrement au développement logiciel, à la data,
+            à la sécurité informatique et aux systèmes d’information. J’aime concevoir des
             applications fonctionnelles, lisibles et performantes, tout en restant orienté
             qualité, fiabilité et utilisateur.
           </p>

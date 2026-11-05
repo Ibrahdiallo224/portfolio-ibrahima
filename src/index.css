@@ -290,6 +290,20 @@ select {
   background: linear-gradient(180deg, rgba(20, 58, 41, 0.86), rgba(18, 18, 18, 0.92));
 }
 
+.project-card.orange {
+  background: linear-gradient(180deg, rgba(92, 52, 18, 0.9), rgba(18, 18, 18, 0.92));
+}
+
+.project-subtitle {
+  margin-top: 40px;
+  font-size: 1.5rem;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 32px;
+}
+
 .project-tag {
   display: inline-block;
   width: fit-content;
