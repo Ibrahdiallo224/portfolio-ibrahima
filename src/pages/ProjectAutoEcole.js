@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom';
 
+// Les images sont dans public/images/autoecole/
+const img = (nom) => `${process.env.PUBLIC_URL}/images/autoecole/${nom}`;
+
 function ProjectAutoEcole() {
   return (
     <div className="project-page">
@@ -27,7 +30,7 @@ function ProjectAutoEcole() {
             <h2>Mon rôle</h2>
             <p>
               J’ai réalisé la modélisation des données avec la méthode Merise : le modèle conceptuel (MCD), puis
-              le modèle logique (MLD). J’ai conçu toute l’architecture des tables (24 tables reliées par 29
+              le modèle logique (MLD). J’ai conçu toute l’architecture des tables (25 tables et 27
               relations) et écrit une partie des requêtes.
             </p>
           </div>
@@ -43,9 +46,45 @@ function ProjectAutoEcole() {
           </div>
         </div>
 
+        <h2 className="project-subtitle">En images</h2>
+        <div className="project-gallery">
+          <figure className="project-figure wide">
+            <img src={img('modele-tables.png')} alt="Modèle logique des données : les tables et leurs relations" />
+            <figcaption>
+              Le modèle logique (MLD), redessiné à partir de la base : en bleu-vert les entités, en brun les tables
+              d’association issues des relations plusieurs-à-plusieurs du MCD. PK = clé primaire, FK = clé étrangère.
+            </figcaption>
+          </figure>
+          <figure className="project-figure wide">
+            <img src={img('requete-paiements.png')} alt="Requête SQL des paiements non finalisés" />
+            <figcaption>
+              Requête « Paiements non finalisés » : pour chaque élève, le prix de la formation moins le total déjà
+              payé, grâce à des jointures entre élèves, inscriptions, formations et paiements.
+            </figcaption>
+          </figure>
+          <figure className="project-figure">
+            <img src={img('requete-planning.png')} alt="Requête SQL du planning d’un moniteur" />
+            <figcaption>
+              Requête paramétrée « planning moniteur » : Access demande une date et un moniteur, puis affiche
+              ses cours.
+            </figcaption>
+          </figure>
+          <figure className="project-figure">
+            <img src={img('formulaire-inscriptions.png')} alt="Formulaire des inscriptions" />
+            <figcaption>Formulaire des inscriptions, avec les formations choisies et leur prix.</figcaption>
+          </figure>
+          <figure className="project-figure wide">
+            <img src={img('formulaire-eleves.png')} alt="Formulaire de gestion des élèves" />
+            <figcaption>
+              Formulaire des élèves : listes déroulantes pour le moniteur, sous-formulaire pour l’adresse, boutons
+              de navigation, d’ajout, de recherche et de suppression (données de test).
+            </figcaption>
+          </figure>
+        </div>
+
         <ul className="key-points">
           <li>Merise : MCD, MLD, tables d’association</li>
-          <li>Microsoft Access : 24 tables, 29 relations</li>
+          <li>Microsoft Access : 25 tables, 27 relations</li>
           <li>Requêtes SQL : paramètres, regroupements, calcul des heures et des restes à payer</li>
           <li>24 formulaires avec menu, sous-formulaires et recherche d’élèves</li>
           <li>Gestion de projet : cahier des charges, Gantt, maquettage, plan de tests</li>

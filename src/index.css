@@ -471,3 +471,40 @@ select {
     width: 100%;
   }
 }
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin: 20px 0 32px;
+}
+
+.project-figure {
+  margin: 0;
+}
+
+.project-figure.wide {
+  grid-column: 1 / -1;
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: #fff;
+}
+
+.project-figure figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+@media (max-width: 840px) {
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+}
