@@ -508,3 +508,15 @@ select {
     grid-template-columns: 1fr;
   }
 }
+
+.project-code {
+  margin: 16px 0 32px;
+  padding: 20px;
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: #0d1117;
+  color: #e6edf3;
+  font-size: 0.85rem;
+  line-height: 1.55;
+}

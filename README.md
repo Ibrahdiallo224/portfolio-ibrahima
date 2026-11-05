@@ -14,7 +14,7 @@ Mon site portfolio : qui je suis, mon parcours et mes projets en détail.
 | Application de questionnaires en C++ | Projet de qualité de programmation en équipe : POO, tests unitaires (doctest), Git |
 | Gestion d’une auto-école en ligne | Base de données Access en équipe : modélisation Merise (MCD, MLD), 25 tables, requêtes, formulaires |
 | Détection de pathologies pulmonaires | Deep learning sur radiographies (TensorFlow, CNN, ResNet-50) |
-| Réseau aéroportuaire | Théorie des graphes en Java (Dijkstra, Kruskal, BFS, DFS) |
+| Réseau aéroportuaire | Algorithmique des graphes en Java : Kruskal, Dantzig, Prüfer, interface Swing / GraphStream |
 
 ## Technologies
 
