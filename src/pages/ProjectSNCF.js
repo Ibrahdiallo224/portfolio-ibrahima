@@ -5,7 +5,7 @@ function ProjectSNCF() {
     <div className="project-page">
       <div className="project-shell">
         <Link to="/" className="back-link">← Retour à l’accueil</Link>
-        <p className="section-kicker">Projet SNCF</p>
+        <p className="section-kicker">Expérience professionnelle · Stage</p>
         <h1>CIGAL / SIRH – gouvernance technique et sécurité</h1>
         <p className="project-intro">
           Objectif : travailler sur plusieurs applications SIRH de la SNCF, notamment CIGAL , GASTRCS , PRISME , avec des bases de données ORACLE et MySQL, en assurant la

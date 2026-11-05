@@ -268,7 +268,7 @@ select {
   font-weight: 600;
 }
 
-.timeline-item p:last-child {
+.timeline-item p:last-of-type {
   color: var(--gray);
 }
 
@@ -411,6 +411,13 @@ select {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, var(--blue), var(--purple));
   border-radius: 999px;
+}
+
+.timeline-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--blue);
+  font-weight: 600;
 }
 
 .contact-actions {
