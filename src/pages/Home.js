@@ -63,7 +63,7 @@ const projects = [
     title: 'Gestion d’une auto-école en ligne',
     category: 'Base de données · équipe de 4',
     description:
-      'Base de données Microsoft Access pour suivre les élèves, les moniteurs, les formations, les paiements et les examens. J’ai réalisé la modélisation Merise (MCD, MLD), l’architecture des 24 tables et une partie des requêtes.',
+      'Base de données Microsoft Access pour suivre les élèves, les moniteurs, les formations, les paiements et les examens. J’ai réalisé la modélisation Merise (MCD, MLD), l’architecture des 25 tables et une partie des requêtes.',
     path: '/projet/autoecole',
     accent: 'teal',
   },
