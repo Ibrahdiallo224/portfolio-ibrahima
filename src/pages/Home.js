@@ -26,6 +26,7 @@ const experiences = [
     period: '04 mai 2026 – 27 août 2026',
     title: 'Stage Développeur – Gouvernance technique & flux de données',
     company: 'e.SNCF Solutions (filiale SNCF) – Lyon',
+    path: '/projet/sncf',
     description:
       'Intégré à l’équipe de gouvernance technique, j’ai travaillé sur plusieurs applications SIRH de la SNCF, notamment CIGAL, en pilotant les flux de données, la qualité des livraisons et la coordination technique avec les équipes de développement. J’ai aussi participé à la sécurisation des applications SIRH sur OpenAM/SSO, OAuth2, MFA OTP, JWT, scripts SQL et administration des serveurs Linux/Apache Tomcat.',
   },
@@ -46,14 +47,6 @@ const projects = [
       'Analyse complète du secteur minier guinéen (bauxite, or, fer) de 2000 à 2025 : SQL, prévisions par machine learning, scénarios Simandou, et mon propre modèle d’IA qui lit les rapports officiels ITIE.',
     path: '/projet/mines',
     accent: 'orange',
-  },
-  {
-    title: 'CIGAL / SIRH SNCF',
-    category: 'Applications SNCF & sécurité',
-    description:
-      'Travail sur plusieurs applications SNCF, dont CIGAL et SIRH, avec gestion des flux de données, sécurisation des accès, OpenAM, OAuth2, MFA OTP, JWT, scripts SQL Oracle et déploiement sur environnement de recette.',
-    path: '/projet/sncf',
-    accent: 'blue',
   },
   {
     title: 'Détection de pathologies pulmonaires',
@@ -104,7 +97,7 @@ function Home() {
                 <span>de stage chez e.SNCF Solutions</span>
               </li>
               <li>
-                <strong>4</strong>
+                <strong>3</strong>
                 <span>projets détaillés</span>
               </li>
               <li>
@@ -160,6 +153,11 @@ function Home() {
                   <h3>{item.title}</h3>
                   <p className="timeline-company">{item.company}</p>
                   <p>{item.description}</p>
+                  {item.path && (
+                    <Link to={item.path} className="timeline-link">
+                      Voir le détail de la mission →
+                    </Link>
+                  )}
                 </div>
               </article>
             ))}
