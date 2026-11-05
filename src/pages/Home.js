@@ -7,11 +7,15 @@ const skills = [
   'Spring Boot',
   'Python',
   'SQL',
+  'pandas',
+  'scikit-learn',
+  'DuckDB',
   'PowerShell',
   'JavaScript',
   'React',
   'HTML/CSS',
   'Linux',
+  'Git / GitHub',
   'TensorFlow',
   'Machine Learning',
   'Sécurité informatique',
@@ -96,16 +100,16 @@ function Home() {
             </div>
             <ul className="hero-metrics">
               <li>
-                <strong>3</strong>
-                <span>ans d’études</span>
+                <strong>4 mois</strong>
+                <span>de stage chez e.SNCF Solutions</span>
               </li>
               <li>
-                <strong>6+</strong>
-                <span>projets</span>
+                <strong>4</strong>
+                <span>projets détaillés</span>
               </li>
               <li>
-                <strong>100%</strong>
-                <span>motivé</span>
+                <strong>Data & IA</strong>
+                <span>SQL, Python, machine learning</span>
               </li>
             </ul>
           </div>
@@ -182,11 +186,21 @@ function Home() {
 
         <section id="contact" className="section contact-box">
           <p className="section-kicker">Contact</p>
-          <h2>Discutons de votre prochain projet.</h2>
-          <a href="mailto:diallo67200@gmail.com" className="primary-button">
-            diallo67200@gmail.com
-          </a>
-          <p className="contact-meta">06 95 25 89 82 • Lyon (69008) / Strasbourg/Mulhouse </p>
+          <h2>Vous recrutez ? Parlons-en.</h2>
+          <div className="contact-actions">
+            <a href="mailto:diallo67200@gmail.com" className="primary-button">
+              diallo67200@gmail.com
+            </a>
+            <a
+              href="https://github.com/Ibrahdiallo224"
+              className="secondary-button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+          <p className="contact-meta">Lyon / Strasbourg / Mulhouse</p>
         </section>
       </main>
     </div>
