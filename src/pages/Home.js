@@ -77,9 +77,9 @@ const projects = [
   },
   {
     title: 'Gestion d’un réseau aéroportuaire',
-    category: 'Théorie des graphes',
+    category: 'Algorithmique des graphes',
     description:
-      'Modélisation d’un réseau aéroportuaire avec Dijkstra, Kruskal, Prüfer, BFS et DFS pour optimiser les parcours et analyser les structures de connexion.',
+      'Application Java (Swing, GraphStream) qui modélise un réseau aérien et y applique les algorithmes de la théorie des graphes : Kruskal, Dantzig, codage et décodage de Prüfer.',
     path: '/projet/graphes',
     accent: 'green',
   },
